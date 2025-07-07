@@ -20,12 +20,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="decrypt.cpp" />
+    <ClCompile Include="decrypt_rus.cpp" />
     <ClCompile Include="encrypt.cpp" />
+    <ClCompile Include="encrypt_rus.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="decrypt.h" />
+    <ClInclude Include="decrypt_rus.h" />
     <ClInclude Include="encrypt.h" />
+    <ClInclude Include="encrypt_rus.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

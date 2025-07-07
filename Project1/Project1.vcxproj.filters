@@ -24,12 +24,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="decrypt_rus.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="encrypt_rus.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="decrypt.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="encrypt.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="decrypt_rus.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt_rus.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

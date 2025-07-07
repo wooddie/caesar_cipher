@@ -23,6 +23,9 @@ int main() {
         'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
     int alphabetSize = sizeof(alphabet) / sizeof(alphabet[0]);
 
+    const std::wstring alphabet_rus = L"АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+    size_t alphabetSize_rus = alphabet_rus.size();
+
     cout << "Available options: (1) encrypt | (2) decrypt" << endl;
     cin >> choice;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
